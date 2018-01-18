@@ -87,6 +87,12 @@ class App extends Component {
               <button onClick={this.addToInput}>÷</button>
               <button onClick={this.addToInput}>×</button>
             </div>
+            <div className="operators-top container">
+              <button>(</button>
+              <button>)</button>
+              <button>&radic;</button>
+              <button>^</button>
+            </div>
             <div className="container">
               <div className="num-pad">
                 <div className="container">
